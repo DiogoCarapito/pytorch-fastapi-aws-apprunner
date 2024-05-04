@@ -8,6 +8,16 @@ Tasks:
 2.  Upload an image to classify, say a cat using the swagger docs url:  /docs
 3.  Deploy to AWS using the free tier and the AWS App Runner service
 
+## venv
+create venv
+```bash
+python3 -m venv .venv
+```
+activate venv
+```bash
+source .venv/bin/activate
+```
+
 ## Notes on Running docker with PyTorch and FastAPI
 `docker build .`
 
